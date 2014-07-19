@@ -16,6 +16,14 @@ bash <(curl -s https://raw.githubusercontent.com/brodemack/Pi/master/ri-setup.sh
 bash <(curl -s https://raw.githubusercontent.com/brodemack/Pi/master/motion-setup.sh)
 ```
 
+## On Start Up
+
+```
+crontab -e
+@reboot cd ~/mmal; bash startmotion
+```
+
+
 ##Config
 
 The following values will be set
