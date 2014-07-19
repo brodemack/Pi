@@ -26,7 +26,7 @@ crontab -e
 
 ##Config
 
-The following values will be set
+The following values will be set with the automated installation, these configs are just for notes
 
 ```
 width 640
