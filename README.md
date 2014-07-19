@@ -15,3 +15,16 @@ bash <(curl -s https://raw.githubusercontent.com/brodemack/Pi/master/ri-setup.sh
 ```
 bash <(curl -s https://raw.githubusercontent.com/brodemack/Pi/master/motion-setup.sh)
 ```
+
+##Config
+
+The following values will be set
+
+```
+width 640
+height 480
+target_dir /home/pi/m-video
+output_pictures off
+text_left Pi-cam %t
+logfile  /home/pi/mmal/motion.log
+```
